@@ -1,0 +1,50 @@
+kubectl get nodes -o wide
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.11.1/deploy/static/provider/aws/deploy.yaml
+kubectl get ing
+kubectl get services -n ingress-nginx
+kubectl get svc -n ingress-nginx
+kubectl get ing
+kubectl apply -f k8s/manifests/ingress.yaml
+kubectl get ing
+kubectl apply -f k8s/manifests/service.yaml
+kubectl apply -f k8s/manifests/deployment.yaml
+kubectl apply -f k8s/manifests/ingress.yaml
+kubectl get ing
+kubectl describe ingress go-web-app-ingress
+kubectl describe ingress go-web-app
+nslookup a54f2b4abe2e84e40be25607e680e13d-2da7070e84c550f2.elb.ap-south-1.amazonaws.com
+sudo vim  /etc/host
+helm --version
+helm version
+cd helm
+ helm create go-web-app-chart
+dir
+ls
+cd go-web-app-chart
+dir
+kubectl apply -f k8s/manifests/deployment.yaml
+cd ../
+cd ..
+dir
+ doskey /history >> command_history.txt
+kubectl apply -f k8s/manifests/deployment.yaml
+kubectl describe ingress go-web-app
+kubectl get ing
+kubectl get all
+kubectl delete deploy go-web-app
+kubectl delete svc go-web-app
+kubectl delete ing go-web-app
+kubectl get all
+ cd ..
+cd go-web-app-main
+cd helm
+dir
+helm install go-web-app  ./go-web-app-chart
+kubectl get deployment
+kubectl get svc
+kubectl get ing
+kubectl edit deploy go-web-app
+helm uninstall
+helm uninstall go-web-app
+kubectl get all
+ doskey /history >> command_history.txt

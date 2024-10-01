@@ -1,0 +1,199 @@
+#############################################
+merging all history here 
+kubectl get nodes -o wide
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.11.1/deploy/static/provider/aws/deploy.yaml
+kubectl get ing
+kubectl get services -n ingress-nginx
+kubectl get svc -n ingress-nginx
+kubectl get ing
+kubectl apply -f k8s/manifests/ingress.yaml
+kubectl get ing
+kubectl apply -f k8s/manifests/service.yaml
+kubectl apply -f k8s/manifests/deployment.yaml
+kubectl apply -f k8s/manifests/ingress.yaml
+kubectl get ing
+kubectl describe ingress go-web-app-ingress
+kubectl describe ingress go-web-app
+nslookup a54f2b4abe2e84e40be25607e680e13d-2da7070e84c550f2.elb.ap-south-1.amazonaws.com
+sudo vim  /etc/host
+helm --version
+helm version
+cd helm
+ helm create go-web-app-chart
+dir
+ls
+cd go-web-app-chart
+dir
+kubectl apply -f k8s/manifests/deployment.yaml
+cd ../
+cd ..
+dir
+ doskey /history >> command_history.txt
+kubectl apply -f k8s/manifests/deployment.yaml
+kubectl describe ingress go-web-app
+kubectl get ing
+kubectl get all
+kubectl delete deploy go-web-app
+kubectl delete svc go-web-app
+kubectl delete ing go-web-app
+kubectl get all
+ cd ..
+cd go-web-app-main
+cd helm
+dir
+helm install go-web-app  ./go-web-app-chart
+kubectl get deployment
+kubectl get svc
+kubectl get ing
+kubectl edit deploy go-web-app
+helm uninstall
+helm uninstall go-web-app
+kubectl get all
+ doskey /history >> command_history.txt
+
+ Invalid macro definition.
+code .
+aws configure
+cls
+eksctl create cluster --name go-web-app --region ap-south-1 
+kubectl apply -f k8s/manifests/deployment.yaml
+cd go-web-app-main
+kubectl apply -f k8s/manifests/deployment.yaml
+kubectl get pods
+kubectl apply -f k8s/manifests/service.yaml
+kubectl apply -f k8s/manifests/ingress.yaml
+kubectl get ing
+kubectl edit svc
+kubectl edit svc go-web-app
+kubectl get svc
+kubectl get node -o wide
+kubectl get services
+kubectl get nodes
+eksctl scale nodegroup --cluster go-web-app --name go-web-app-nodes --nodes 0 --region ap-south-1
+eksctl get nodegroup  --cluster=go-web-app --region ap-south-1 
+eksctl scale nodegroup --cluster go-web-app --name ng-362a89f6 --nodes 0 --region ap-south-1
+eksctl delete cluster --name go-web-app --region ap-south-1
+doskey /History > command_history.txt
+doskey /History > cd Downloads/command_history.txt
+
+#know which commands to use and delete reset of the commands
+##############################################
+
+
+code .
+aws configure
+cls
+eksctl create cluster --name go-web-app --region ap-south-1 
+kubectl apply -f k8s/manifests/deployment.yaml
+cd go-web-app-main
+kubectl apply -f k8s/manifests/deployment.yaml
+kubectl get pods
+kubectl apply -f k8s/manifests/service.yaml
+kubectl apply -f k8s/manifests/ingress.yaml
+kubectl get ing
+kubectl edit svc
+kubectl edit svc go-web-app
+kubectl get svc
+kubectl get node -o wide
+kubectl get services
+kubectl get nodes
+eksctl scale nodegroup --cluster go-web-app --name go-web-app-nodes --nodes 0 --region ap-south-1
+eksctl get nodegroup  --cluster=go-web-app --region ap-south-1 
+eksctl scale nodegroup --cluster go-web-app --name ng-362a89f6 --nodes 0 --region ap-south-1
+eksctl delete cluster --name go-web-app --region ap-south-1
+doskey /History > command_history.txt
+dir
+cd Downloads
+cls
+cd go-web-app-main_Raw
+code .
+aws configure
+eksctl create cluster --name go-web-app --region ap-south-1 --nodegroup-name go-web-app-nodes --node-type t3.micro --nodes 2 --managed
+eksctl get nodegroup --cluster=go-web-app  --region ap-south-1
+cd go-web-app-main
+kubectl apply -f k8s/manifests/deployment.yaml
+kubectl get pods
+kubectl apply -f k8s/manifests/service.yaml
+kubectl apply -f k8s/manifests/ingress.yaml
+kubectl get ing
+kubectl edit svc go-web-app
+kubectl get svc
+kubectl get nodes -o wide
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.11.1/deploy/static/provider/aws/deploy.yaml
+kubectl get ing
+kubectl get services -n ingress-nginx
+kubectl get svc -n ingress-nginx
+kubectl get ing
+kubectl apply -f k8s/manifests/ingress.yaml
+kubectl get ing
+kubectl apply -f k8s/manifests/service.yaml
+kubectl apply -f k8s/manifests/deployment.yaml
+kubectl apply -f k8s/manifests/ingress.yaml
+kubectl get ing
+kubectl describe ingress go-web-app-ingress
+kubectl describe ingress go-web-app
+nslookup a54f2b4abe2e84e40be25607e680e13d-2da7070e84c550f2.elb.ap-south-1.amazonaws.com
+sudo vim  /etc/host
+helm --version
+helm version
+cd helm
+ helm create go-web-app-chart
+dir
+ls
+cd go-web-app-chart
+dir
+kubectl apply -f k8s/manifests/deployment.yaml
+cd ../
+cd ..
+dir
+ doskey /history >> command_history.txt
+ helm create go-web-app-chart
+dir
+ls
+cd go-web-app-chart
+dir
+kubectl apply -f k8s/manifests/deployment.yaml
+cd ../
+cd ..
+dir
+ doskey /history >> command_history.txt
+kubectl apply -f k8s/manifests/deployment.yaml
+kubectl describe ingress go-web-app
+kubectl get ing
+kubectl get all
+kubectl delete deploy go-web-app
+kubectl delete svc go-web-app
+kubectl delete ing go-web-app
+kubectl get all
+ cd ..
+cd go-web-app-main
+cd helm
+dir
+helm install go-web-app  ./go-web-app-chart
+kubectl get deployment
+kubectl get svc
+kubectl get ing
+kubectl edit deploy go-web-app
+helm uninstall
+helm uninstall go-web-app
+kubectl get all
+ doskey /history >> command_history.txt
+kubectl describe ingress go-web-app-ingress
+cd ..
+kubectl describe ingress go-web-app-ingress
+kubectl get ing
+cd ..
+kubectl get ing
+cd ..
+cd go-web-app-main_Raw
+cd go-web-app-main
+kubectl get ing go-web-app
+kubectl get all
+cd helm
+helm install go-web-app  ./go-web-app-chart
+kubectl get all
+kubectl get ing
+cd ..
+notepad C:\Windows\System32\drivers\etc\hosts
+nslookup a54f2b4abe2e84e40be25607e680e13d-2da7070e84c550f2.elb.ap-south-1.amazonaws.com
+ doskey /history >> command_history.txt
